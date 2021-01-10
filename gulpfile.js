@@ -20,7 +20,7 @@ let serve = () => {
     browserSync.init({
         injectChanges: false, // True by default and was blocking the ability to run mergeCSSIntoHTML on CSS changes.
         browser: browserChoice,
-        reloadDelay: 200,
+        reloadDelay: 500,
         server: `./`
     });
 
