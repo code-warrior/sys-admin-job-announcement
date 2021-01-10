@@ -24,8 +24,8 @@ h2 {
 
 h3 {
   margin: auto;
-  padding: 3px 0 0 0;
   width: 96%;
+  padding: 6px 3px 6px 8px;
   border: 1px solid #aaa;
   box-shadow: 3px 3px 4px #aaa;
 }
