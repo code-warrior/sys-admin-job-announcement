@@ -17,12 +17,6 @@ h6 {
   color: #000;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
-}
-
 h2 {
   text-transform: uppercase;
   letter-spacing: 3px;
