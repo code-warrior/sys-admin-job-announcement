@@ -35,3 +35,26 @@ h3 {
   border: 1px solid #aaa;
   box-shadow: 3px 3px 4px #aaa;
 }
+
+p {
+  margin: 20px 0 16px;
+}
+
+ul {
+  margin-left: -40px;
+  list-style-type: disc;
+}
+
+li {
+  margin: 8px;
+}
+
+abbr {
+  text-decoration-color: rgb(200, 200, 200);
+  text-decoration-style: wavy;
+}
+
+/* Anchors */
+a {
+  text-decoration: none;
+}
