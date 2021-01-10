@@ -1,0 +1,19 @@
+{
+  "name": "sys-admin-job-announcement",
+  "version": "1.0.0",
+  "description": "To style a document destined for Blackboard, it’s best to inline CSS into the HTML. This project does exactly that for our student-level system administrator job announcement.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roy Vanegas",
+  "license": "ISC",
+  "dependencies": {
+    "inlining": "^0.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
