@@ -52,3 +52,34 @@ abbr {
 a {
   text-decoration: none;
 }
+
+header,
+.section-content {
+  margin: auto;
+  width: 90%;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.full-width-container {
+  padding-bottom: 4px;
+  padding-top: 2px;
+}
+
+.full-width-container:nth-child(odd) {
+  background-color: #fcdbdb;
+}
+
+.full-width-container:nth-child(even) {
+  background-color: #fcf2f2;
+}
+
+#qualifications--required-and-preferred {
+  display: flex;
+}
+
+#qualifications--required-and-preferred section {
+  width: 50%;
+}
