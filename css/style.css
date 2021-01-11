@@ -24,10 +24,10 @@ h2 {
 
 h3 {
   margin: auto;
-  width: 96%;
   padding: 6px 3px 6px 8px;
   border: 1px solid #aaa;
   box-shadow: 3px 3px 4px #aaa;
+  width: 98%;
 }
 
 p {
