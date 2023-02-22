@@ -7,7 +7,6 @@ body {
   line-height: 1.4;
 }
 
-/* Headings */
 h1,
 h2,
 h3,
@@ -48,7 +47,6 @@ abbr {
   text-decoration-style: wavy;
 }
 
-/* Anchors */
 a {
   text-decoration: none;
 }
