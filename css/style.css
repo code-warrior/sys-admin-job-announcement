@@ -76,8 +76,8 @@ header,
 
 #qualifications--required-and-preferred {
   display: flex;
-}
 
-#qualifications--required-and-preferred section {
-  width: 50%;
+  section {
+    width: 50%;
+  }
 }
