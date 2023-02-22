@@ -8,3 +8,7 @@ In order to stand this project up, you’ll need [Node](https://nodejs.org/en/),
 
 1. Once Node, Gulp, and `inlining` have been installed, run `npm i`.
 2. Run `gulp`.
+
+## Troubelshooting
+
+If your browser loads `localhost:3000` with a blank page, append `index.html` to view. For example, `localhost:3000/index.html`. Subsequent saves to `pre-compiled.html` and `css/style.css` should auto reload the browser afterwards.
