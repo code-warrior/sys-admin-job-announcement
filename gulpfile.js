@@ -31,4 +31,4 @@ let serve = () => {
 
 exports.mergeCSSIntoHTML = mergeCSSIntoHTML;
 exports.compressHTML = compressHTML;
-exports.serve = series(mergeCSSIntoHTML, compressHTML, serve);
+exports.default = series(mergeCSSIntoHTML, compressHTML, serve);
