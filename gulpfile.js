@@ -25,7 +25,8 @@ let serve = () => {
         server: `./`
     });
 
-    watch([`./pre-compiled.html`, `./css/style.css`], mergeCSSIntoHTML).on(`change`, reload);
+    watch([`./pre-compiled.html`, `./css/style.css`], mergeCSSIntoHTML)
+        .on(`change`, reload);
 };
 
 exports.mergeCSSIntoHTML = mergeCSSIntoHTML;
