@@ -2,7 +2,8 @@ const { src, dest, series, watch } = require(`gulp`);
 const htmlCompressor = require(`gulp-htmlmin`);
 const browserSync = require(`browser-sync`);
 const reload = browserSync.reload;
-let browserChoice = `default`; // or `safari`, `firefox`, `google chrome`, `opera`,`microsoft-edge`
+let browserChoice = `default`; // ← Or may be `safari`, `firefox`,
+                               // `google chrome`, `opera`,`microsoft-edge`
 
 async function mergeCSSIntoHTML () {
     let exec = require(`child_process`).exec;
@@ -18,8 +19,8 @@ let compressHTML = () => {
 
 let serve = () => {
     browserSync.init({
-        injectChanges: false, // True by default and was blocking the ability to run mergeCSSIntoHTML on CSS changes.
-        browser: browserChoice,
+        injectChanges: false,   // ← True by default; was blocking the ability
+        browser: browserChoice, // to run mergeCSSIntoHTML on CSS changes.
         reloadDelay: 500,
         server: `./`
     });
