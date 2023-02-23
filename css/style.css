@@ -61,8 +61,13 @@ header,
   font-variant: small-caps;
 }
 
-.full-width-container {
-  padding-bottom: 4px;
+.full-width-container:first-of-type {
+  padding-bottom: 8px;
+  padding-top: 2px;
+}
+
+.full-width-container:not(:first-of-type) {
+  padding-bottom: 30px;
   padding-top: 2px;
 }
 
