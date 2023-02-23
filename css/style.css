@@ -67,11 +67,11 @@ header,
 }
 
 .full-width-container:nth-child(odd) {
-  background-color: #fcdbdb;
+  background-color: #f0eef9;
 }
 
 .full-width-container:nth-child(even) {
-  background-color: #fcf2f2;
+  background-color: #fff;
 }
 
 #qualifications--required-and-preferred {
